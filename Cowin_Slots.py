@@ -3,7 +3,7 @@ import time
 from playsound import playsound
 dist = 770
 date = '26-05-2021'
-URL = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id={}&date={}'.format(
+URL = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=730&date=17-07-2021'.format(
     dist, date)
 
 header = {
